@@ -24,6 +24,9 @@ mod _11_iterators;
 mod _12_smart_pointers;
 mod _13_concurrency;
 mod _14_modules;
+mod _15_macros;
+mod _16_unsafe;
+mod _17_async;
 
 fn main() {
     println!("╔══════════════════════════════════════════════════════════════╗");
@@ -45,6 +48,9 @@ fn main() {
     _12_smart_pointers::run();
     _13_concurrency::run();
     _14_modules::run();
+    _15_macros::run();
+    _16_unsafe::run();
+    _17_async::run();
 
     println!("\n╔══════════════════════════════════════════════════════════════╗");
     println!("║                    모든 예제 실행 완료!                       ║");
