@@ -27,6 +27,7 @@ mod _14_modules;
 mod _15_macros;
 mod _16_unsafe;
 mod _17_async;
+mod _18_idioms;
 
 fn main() {
     println!("╔══════════════════════════════════════════════════════════════╗");
@@ -51,6 +52,7 @@ fn main() {
     _15_macros::run();
     _16_unsafe::run();
     _17_async::run();
+    _18_idioms::run();
 
     println!("\n╔══════════════════════════════════════════════════════════════╗");
     println!("║                    모든 예제 실행 완료!                       ║");
